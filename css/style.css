@@ -690,3 +690,88 @@ a:focus {
   color: #222222;
 }
 /*# sourceMappingURL=style.css.map */
+
+.custom_nav-container .navbar-nav .nav-item.active .nav-link,
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link {
+  background-color: #4b208c;
+  color: #ffffff;
+}
+
+.custom_nav-container .navbar-nav .dropdown-menu {
+  background-color: #eae6f5;
+  border: none;
+  box-shadow: none;
+}
+
+.custom_nav-container .navbar-nav .dropdown-item {
+  color: #ffffff;
+}
+
+.custom_nav-container .navbar-nav .dropdown-item:hover {
+  background-color: #4b208c;
+  color: #ffffff;
+}
+
+
+/* Style for active and hover states of navbar items */
+.custom_nav-container .navbar-nav .nav-item.active .nav-link,
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link {
+  background-color: #4b208c;
+  color: #ffffff;
+}
+
+/* Style for the dropdown menu background */
+.custom_nav-container .navbar-nav .dropdown-menu {
+  background-color: #eae6f5;
+  border: none; /* Removes the border */
+}
+
+/* Style for dropdown items */
+.custom_nav-container .navbar-nav .dropdown-item {
+  color: #ffffff;
+}
+
+/* Change the hover color for dropdown items */
+.custom_nav-container .navbar-nav .dropdown-item:hover {
+  background-color: #4b208c;
+  color: #ffffff;
+}
+
+/* Remove box-shadow from the dropdown */
+.custom_nav-container .navbar-nav .dropdown-menu {
+  box-shadow: none;
+}
+
+/* Prevent line break for the Web Hosting Services nav item */
+.custom_nav-container .navbar-nav .nav-link {
+  white-space: nowrap;
+}
+
+/* Style for active and hover states of navbar items */
+.custom_nav-container .navbar-nav .nav-item.active .nav-link,
+.custom_nav-container .navbar-nav .nav-item:hover .nav-link {
+  background-color: #4b208c;
+  color: #ffffff;
+}
+
+/* Style for the dropdown menu background */
+.custom_nav-container .navbar-nav .dropdown-menu {
+  background-color: #eae6f5;
+  border: none; /* Removes the border */
+}
+
+/* Style for dropdown items */
+.custom_nav-container .navbar-nav .dropdown-item {
+  color: #050505;
+}
+
+/* Change the hover color for dropdown items */
+.custom_nav-container .navbar-nav .dropdown-item:hover {
+  background-color: #4b208c;
+  color: #ffffff;
+}
+
+/* Remove box-shadow from the dropdown */
+.custom_nav-container .navbar-nav .dropdown-menu {
+  box-shadow: none;
+}
