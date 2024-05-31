@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/your_cpanel_username/public_html/
+    - /bin/cp -R about.html $DEPLOYPATH
+    - /bin/cp -R blog.html $DEPLOYPATH
+    - /bin/cp -R contact.html $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R onsite.html $DEPLOYPATH
+    - /bin/cp -R out.html $DEPLOYPATH
+    - /bin/cp -R README.md $DEPLOYPATH
+    - /bin/cp -R service_desk.html $DEPLOYPATH
+    - /bin/cp -R service.html $DEPLOYPATH
+    - /bin/cp -R web_hosting.html $DEPLOYPATH
