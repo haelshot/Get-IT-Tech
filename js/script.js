@@ -19,7 +19,7 @@ function sendToEmail() {
 
     const emailSubject = subject;
     const emailBody = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0AMessage: ${message}`;
-    const mailtoUrl = `mailto:abdukul18@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+    const mailtoUrl = `mailto:info@get-ittech.com?subject=${emailSubject}&body=${emailBody}`;
 
     window.open(mailtoUrl, '_blank');
 }
